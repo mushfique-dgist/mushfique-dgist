@@ -20,7 +20,7 @@
   <a href="mailto:mushfique@dgist.ac.kr"><img src="https://img.shields.io/badge/email-DGIST-173831?style=flat-square&logo=gmail&logoColor=white" alt="Email"></a>
 </p>
 
-### Current thread
+### Current research
 
 Testing where old-task information remains after sequential learning, and what a simple classifier can recover from it.
 
