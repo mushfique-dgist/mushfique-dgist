@@ -7,12 +7,12 @@
 <p align="center">
   <code>CS × EE</code>&nbsp;&nbsp;
   <code>motion data</code>&nbsp;&nbsp;
-  <code>continual learning</code>&nbsp;&nbsp;
-  <code>learning systems</code>
+  <code>machine learning</code>&nbsp;&nbsp;
+  <code>research software</code>
 </p>
 
 <p align="center">
-  DGIST undergraduate working at the boundary of computer science and electrical engineering.
+  I am a DGIST undergraduate studying computer science and electrical engineering.
 </p>
 
 <p align="center">
@@ -22,41 +22,41 @@
 
 ### Current research
 
-Testing where old-task information remains after sequential learning, and what a simple classifier can recover from it.
+I am studying what neural networks remember from earlier tasks after they learn new ones, and whether that information can still be recovered when their accuracy drops.
 
-### Selected work
+### Selected projects
 
 <table>
   <tr>
     <td width="42" align="center"><img src="assets/icons/route.svg" alt="" width="26"></td>
     <td>
       <strong><a href="https://github.com/mushfique-dgist/gpx-motion-analysis">GPX Motion Analysis</a></strong><br>
-      Aligns irregular tracks without treating long gaps as observed motion.<br>
-      <sub><code>Python</code> <code>pandas</code> <code>geospatial data</code></sub>
+      Compares GPS tracks from the same trip, even when the recordings start at different times or contain gaps.<br>
+      <sub><code>Python</code> <code>GPX</code> <code>data analysis</code></sub>
     </td>
   </tr>
   <tr>
     <td width="42" align="center"><img src="assets/icons/messages-square.svg" alt="" width="26"></td>
     <td>
       <strong><a href="https://github.com/mushfique-dgist/vox-pop">Vox Pop</a></strong><br>
-      Searches public discussions across nine sources through a library, CLI, and MCP server.<br>
-      <sub><code>Python</code> <code>CLI</code> <code>MCP</code></sub>
+      Searches nine public discussion sites from one command and puts the results in one place.<br>
+      <sub><code>Python</code> <code>search</code> <code>command line</code></sub>
     </td>
   </tr>
   <tr>
     <td width="42" align="center"><img src="assets/icons/library.svg" alt="" width="26"></td>
     <td>
       <strong><a href="https://github.com/mushfique-dgist/course_extractor">Course Extractor</a></strong><br>
-      Combines FOSE discovery, JSON-LD, and HTML fallbacks; its Harvard DCE run collected 508 courses with no reported page errors.<br>
-      <sub><code>Python</code> <code>scraping</code> <code>JSON-LD</code></sub>
+      Collects course listings from university websites and saves them as clean JSON and Markdown. The Harvard test run found 508 courses without page errors.<br>
+      <sub><code>Python</code> <code>web scraping</code> <code>data export</code></sub>
     </td>
   </tr>
   <tr>
     <td width="42" align="center"><img src="assets/icons/gamepad-2.svg" alt="" width="26"></td>
     <td>
       <strong><a href="https://github.com/mushfique-dgist/nypc_code_battle">Code Battle AI</a></strong><br>
-      Joins screen perception, summed-area move generation, and 3-ply minimax.<br>
-      <sub><code>Python</code> <code>OpenCV</code> <code>minimax</code></sub>
+      An AI player for MapleStory Code Battle. It reads the board from the screen and looks a few moves ahead before suggesting a move.<br>
+      <sub><code>Python</code> <code>OpenCV</code> <code>game AI</code></sub>
     </td>
   </tr>
 </table>
