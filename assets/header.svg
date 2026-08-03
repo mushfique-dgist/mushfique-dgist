@@ -1,41 +1,35 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 280" role="img" aria-labelledby="title description">
-  <title id="title">Mushfique Shahriar Aurnab</title>
-  <desc id="description">DGIST student working across computer science and electrical engineering.</desc>
-  <metadata>Display lettering uses Avara by Raphaël Bastide and contributors, distributed under the SIL Open Font License.</metadata>
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="280" viewBox="0 0 1200 280" role="img" aria-labelledby="title desc">
+  <title id="title">Mushfique Shahriar Aurnab — learning from imperfect signals</title>
+  <desc id="desc">A dark editorial banner with a broken signal trace representing observed and missing evidence.</desc>
 
-  <rect width="1200" height="280" rx="2" fill="#F3ECDD"/>
-  <rect x="18.5" y="18.5" width="1163" height="243" rx="1" fill="none" stroke="#D2C1AA"/>
+  <rect width="1200" height="280" fill="#111315"/>
+  <path d="M0 5H1200" stroke="#d84b3e" stroke-width="10"/>
 
-  <text x="68" y="43" fill="#9D2235" font-family="Verdana, sans-serif" font-size="13" font-weight="600" letter-spacing="2.4">DGIST  ·  COMPUTER SCIENCE / ELECTRICAL ENGINEERING</text>
-
-  <g id="name" fill="#26211D">
-    <path d="M760 800H960L880 720V80L960 0H680L760 80V600L520 0L480 -40L200 640V80L280 0H40L120 80V720L40 800H280L520 200Z" transform="translate(66 163) scale(.13 -.13)"/>
-    <path d="M520 0H480L440 80L320 0H240L120 40L80 120V480L0 520L200 560V120L240 80H320L360 120L400 200V480L320 520L520 560V80L600 120V80Z" transform="translate(201.5 163) scale(.13 -.13)"/>
-    <path d="M370 360 290 480H210L170 440V400L410 240L450 160L410 40L330 0H210L130 40L90 0L50 200H90L170 80L250 40L330 80V160L90 320L50 400L90 520L250 560L330 520L370 560L410 360Z" transform="translate(285 163) scale(.13 -.13)"/>
-    <path d="M220 840V440L260 520L340 560L500 520L540 440V80L620 0H340L420 80V440L380 480H300L220 360V80L300 0H20L100 80V720L20 760Z" transform="translate(351.6 163) scale(.13 -.13)"/>
-    <path d="M340 520V480H300L220 440V80L300 0H20L100 80V440L60 480V520H100V680L140 760L180 800L260 840L420 800V680L380 640L300 680L340 760L260 800L220 720V520Z" transform="translate(440.3 163) scale(.13 -.13)"/>
-    <path d="M80 680V720L120 800H160L240 760V720L200 640H160ZM240 560V80L320 0H40L120 80V440L40 480Z" transform="translate(495.2 163) scale(.13 -.13)"/>
-    <path d="M560 440V-240L640 -320H360L440 -240V40L360 0H280L160 40L80 200V360L160 520L320 560L400 520L480 440L520 560L640 480ZM240 480 200 280 240 80 320 40 400 80 440 160V400L360 480Z" transform="translate(547.5 163) scale(.13 -.13)"/>
-    <path d="M520 0H480L440 80L320 0H240L120 40L80 120V480L0 520L200 560V120L240 80H320L360 120L400 200V480L320 520L520 560V80L600 120V80Z" transform="translate(638.8 163) scale(.13 -.13)"/>
-    <path d="M320 560 440 520 520 400 480 320 160 240 200 80 320 40 400 80 480 160 520 120 440 40 360 0H240L120 40L40 200V360L120 520L240 560ZM200 480 160 280 360 360V480L280 520Z" transform="translate(722.3 163) scale(.13 -.13)"/>
+  <g fill="#f4f0e8">
+    <text x="64" y="58" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="700" letter-spacing="2.8">MUSHFIQUE SHAHRIAR AURNAB</text>
+    <text x="64" y="124" font-family="Georgia, 'Times New Roman', serif" font-size="53">Learning from</text>
+    <text x="64" y="181" font-family="Georgia, 'Times New Roman', serif" font-size="53" font-style="italic">imperfect signals.</text>
   </g>
 
-  <g id="surname" fill="#26211D">
-    <path d="M480 600 360 760H240L200 720L160 640L240 560L520 320L560 200L520 40L360 -40L160 0L80 -40L40 230H80L200 40H320L400 80L440 120V200L360 280L80 520L40 640L80 760L200 840L400 800L480 840L520 600Z" transform="translate(69 245) scale(.043 -.043)"/>
-    <path d="M240 720V480L280 440H640L680 480V720L600 800H880L800 720V80L880 0H600L680 80V360L640 400H280L240 360V80L320 0H40L120 80V720L40 800H320Z" transform="translate(100.3 245) scale(.043 -.043)"/>
-    <path d="M0 0 80 80 320 720V760L400 840L680 80L760 0H520L560 80L503 240H217L160 80L240 0ZM231 280H488L360 640Z" transform="translate(145.36 245) scale(.043 -.043)"/>
-    <path d="M240 720V480L280 440H640L680 480V720L600 800H880L800 720V80L880 0H600L680 80V360L640 400H280L240 360V80L320 0H40L120 80V720L40 800H320Z" transform="translate(183.54 245) scale(.043 -.043)"/>
-    <path d="M400 800 600 760 680 600 600 440 360 400 480 360 720 0 680 -40 520 80 360 320 320 360 240 400V80L320 0H40L120 80V720L40 800ZM240 720V440H400L480 480L520 600L480 720L400 760H280Z" transform="translate(228.6 245) scale(.043 -.043)"/>
-    <path d="M320 0H40L120 80V720L40 800H320L240 720V80Z" transform="translate(265.49 245) scale(.043 -.043)"/>
-    <path d="M0 0 80 80 320 720V760L400 840L680 80L760 0H520L560 80L503 240H217L160 80L240 0ZM231 280H488L360 640Z" transform="translate(286.47 245) scale(.043 -.043)"/>
-    <path d="M400 800 600 760 680 600 600 440 360 400 480 360 720 0 680 -40 520 80 360 320 320 360 240 400V80L320 0H40L120 80V720L40 800ZM240 720V440H400L480 480L520 600L480 720L400 760H280Z" transform="translate(324.65 245) scale(.043 -.043)"/>
-    <path d="M0 0 80 80 320 720V760L400 840L680 80L760 0H520L560 80L503 240H217L160 80L240 0ZM231 280H488L360 640Z" transform="translate(384.24 245) scale(.043 -.043)"/>
-    <path d="M680 120 600 40 520 0H360L240 40L160 120L120 240V720L40 800H320L240 720V280L280 120L400 40H480L560 80L600 120L640 240V720L560 800H800L720 720V240Z" transform="translate(422.42 245) scale(.043 -.043)"/>
-    <path d="M400 800 600 760 680 600 600 440 360 400 480 360 720 0 680 -40 520 80 360 320 320 360 240 400V80L320 0H40L120 80V720L40 800ZM240 720V440H400L480 480L520 600L480 720L400 760H280Z" transform="translate(464.04 245) scale(.043 -.043)"/>
-    <path d="M640 -40 200 680V80L280 0H40L120 80V720L40 800H280L640 200V720L560 800H800L720 720V40Z" transform="translate(500.93 245) scale(.043 -.043)"/>
-    <path d="M0 0 80 80 320 720V760L400 840L680 80L760 0H520L560 80L503 240H217L160 80L240 0ZM231 280H488L360 640Z" transform="translate(542.55 245) scale(.043 -.043)"/>
-    <path d="M400 800 600 760 680 600 600 480 520 440 640 400 720 240 640 80 480 0H40L120 80V720L40 800ZM240 720V440H320L480 480L520 600L480 720L400 760H280ZM240 80 280 40H400L520 120L560 240L480 360L320 400H240Z" transform="translate(580.73 245) scale(.043 -.043)"/>
+  <text x="67" y="229" fill="#aaa69e" font-family="Arial, Helvetica, sans-serif" font-size="14" letter-spacing="1.35">DGIST  /  COMPUTER SCIENCE × ELECTRICAL ENGINEERING</text>
+
+  <g transform="translate(805 48)">
+    <text x="0" y="0" fill="#d84b3e" font-family="Arial, Helvetica, sans-serif" font-size="11" font-weight="700" letter-spacing="1.8">OBSERVATION 01</text>
+    <rect x="0" y="17" width="330" height="156" fill="none" stroke="#34383e"/>
+    <path d="M0 69H330M0 121H330M82.5 17V173M165 17V173M247.5 17V173" stroke="#272b30" stroke-width="1"/>
+
+    <path d="M16 134 C35 131 45 103 64 109 S92 143 112 117 S139 70 158 80" fill="none" stroke="#e9e5dd" stroke-width="2.4"/>
+    <path d="M193 92 C211 99 217 126 236 118 S266 61 286 71 S304 104 316 91" fill="none" stroke="#e9e5dd" stroke-width="2.4"/>
+    <path d="M158 80 C169 78 182 83 193 92" fill="none" stroke="#d84b3e" stroke-width="2" stroke-dasharray="4 7"/>
+
+    <circle cx="158" cy="80" r="4.5" fill="#111315" stroke="#d84b3e" stroke-width="2"/>
+    <circle cx="193" cy="92" r="4.5" fill="#111315" stroke="#d84b3e" stroke-width="2"/>
+    <path d="M175 67V107" stroke="#d84b3e"/>
+    <text x="175" y="128" fill="#8d9299" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="10" letter-spacing="1.2">MISSING</text>
   </g>
 
-  <path d="M901 70 C1009 58 1126 73 1129 130 C1132 189 1057 223 995 201 C936 180 954 119 1023 121 C1090 123 1085 200 1139 216" fill="none" stroke="#9D2235" stroke-width="1.6" stroke-linecap="round"/>
+  <g transform="translate(805 244)" font-family="Arial, Helvetica, sans-serif" font-size="9.5" letter-spacing="1">
+    <circle cx="4" cy="-4" r="4" fill="#d84b3e"/>
+    <text x="17" y="0" fill="#aaa69e">SOFTWARE  ·  REPRESENTATIONS  ·  PHYSICAL INTELLIGENCE</text>
+  </g>
 </svg>

@@ -1,39 +1,26 @@
 <p align="center">
-  <img src="assets/header.svg" alt="Mushfique Shahriar Aurnab, DGIST computer science and electrical engineering" width="100%">
+  <img src="assets/header.svg" alt="Mushfique Shahriar Aurnab — learning from imperfect signals" width="100%">
 </p>
 
-<br>
+<p align="center">
+  <a href="assets/Mushfique_Shahriar_Aurnab_CV.pdf">Curriculum vitae</a> ·
+  <a href="mailto:mushfique@dgist.ac.kr">Email</a> ·
+  <a href="https://www.dgist.ac.kr/en/">DGIST</a>
+</p>
 
-I am a [DGIST](https://www.dgist.ac.kr/en/) undergraduate focused on computer science and electrical engineering. I like systems that have to make sense of imperfect signals: multimodal learning, physical intelligence, and software agents with clear tests.
+I build learning systems that stay honest about imperfect signals, from motion traces and neural representations to agent workflows.
 
-## Selected work
+### Selected work
 
-**[gpx-motion-analysis](https://github.com/mushfique-dgist/gpx-motion-analysis)**<br>
-A reproducible rebuild of a 2025 motion-data project: gap-aware alignment of irregular GPX tracks, segment-safe motion metrics, and stop-threshold sensitivity on synthetic fixtures.
+| Project | What I built | Evidence |
+| --- | --- | --- |
+| **[GPX Motion Analysis](https://github.com/mushfique-dgist/gpx-motion-analysis)** | Gap-aware alignment and segment-safe motion analysis for irregular tracks | Tested CLI, reproducible fixtures, Python 3.11–3.14 CI |
+| **[Vox Pop](https://github.com/mushfique-dgist/vox-pop)** | Semantic routing and retrieval across public discussions | 9 sources, Python library, CLI, and MCP server |
+| **[Course Extractor](https://github.com/mushfique-dgist/course_extractor)** | FOSE discovery with JSON-LD and HTML fallbacks | 508 Harvard DCE courses, 0 reported page errors |
+| **[Code Battle AI](https://github.com/mushfique-dgist/nypc_code_battle)** | Screen perception joined to adversarial search | OpenCV, summed-area move generation, 3-ply minimax |
 
-<br>
+### Questions I am exploring
 
-**[vox-pop](https://github.com/mushfique-dgist/vox-pop)**<br>
-A Python library, CLI, and MCP server for searching public discussions across nine platforms. A semantic router chooses relevant communities before retrieval.
-
-<br>
-
-**[course-extractor](https://github.com/mushfique-dgist/course_extractor)**<br>
-A multi-strategy catalog scraper that handles FOSE endpoints, JSON-LD, and unstructured HTML, then writes clean JSON and Markdown.
-
-<br>
-
-**[nypc-code-battle](https://github.com/mushfique-dgist/nypc_code_battle)**<br>
-A screen-reading game agent that joins OpenCV template matching with integral-image move generation and minimax with alpha-beta pruning.
-
-<br>
-
-## Current direction
-
-At epoch 25 of a nine-run sequential CIFAR-10 diagnostic, 79.7% of misclassified old-task examples remained linearly recoverable; refitting the full readout restored 74.6% mean old-task accuracy.
-
-I am moving toward multimodal representation learning, assistive robotics, and inspectable agent systems for coordinating experiments.
-
-## Contact
-
-[Curriculum vitae](assets/Mushfique_Shahriar_Aurnab_CV.pdf) · [mushfique@dgist.ac.kr](mailto:mushfique@dgist.ac.kr)
+- When is model failure a readout problem rather than representation loss?
+- How should a system preserve missing sensor evidence instead of silently filling it in?
+- How can agents coordinate experiments without losing provenance?
