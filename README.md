@@ -6,9 +6,9 @@
 
 <p align="center">
   <code>CS × EE</code>&nbsp;&nbsp;
-  <code>motion data</code>&nbsp;&nbsp;
   <code>machine learning</code>&nbsp;&nbsp;
-  <code>research software</code>
+  <code>continual learning</code>&nbsp;&nbsp;
+  <code>reinforcement learning</code>
 </p>
 
 <p align="center">
@@ -22,7 +22,7 @@
 
 ### Current research
 
-I am studying what neural networks remember from earlier tasks after they learn new ones, and whether that information can still be recovered when their accuracy drops.
+I am an undergraduate researcher in DGIST's Soft Augmented Intelligence Lab, where I am designing reinforcement-learning experiments for a hip exosuit that could help people sprint faster. In my UGRP project I study continual learning: what neural networks keep from earlier tasks, and why a reused adapter can suddenly lose the ability to learn new ones.
 
 ### Selected projects
 
