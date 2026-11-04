@@ -1,0 +1,86 @@
+name: screensaver
+
+on:
+  schedule:
+    - cron: "7,37 * * * *"
+  workflow_dispatch:
+    inputs:
+      city:
+        description: City, for example Tokyo
+        required: false
+        default: ""
+      country:
+        description: Two-letter country code, for example JP
+        required: false
+        default: ""
+      lat:
+        description: Latitude (rounded to 0.1 degree before use)
+        required: false
+        default: ""
+      lon:
+        description: Longitude (rounded to 0.1 degree before use)
+        required: false
+        default: ""
+
+permissions:
+  contents: write
+  actions: write
+
+concurrency:
+  group: screensaver
+  cancel-in-progress: false
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v7
+
+      - uses: actions/setup-python@v7
+        with:
+          python-version: "3.13"
+
+      - run: pip install --quiet fonttools brotli
+
+      - name: Restore the last location and data
+        run: |
+          mkdir -p state
+          if git fetch --quiet --depth=1 origin output; then
+            git show FETCH_HEAD:location.json > state/location.json || true
+            git show FETCH_HEAD:snapshot.json > state/snapshot.json || true
+          fi
+
+      - name: Resolve location
+        env:
+          CITY: ${{ inputs.city }}
+          COUNTRY: ${{ inputs.country }}
+          LAT: ${{ inputs.lat }}
+          LON: ${{ inputs.lon }}
+          LOC: ${{ vars.LOC }}
+          GH_USER: ${{ github.repository_owner }}
+        run: python screensaver/location.py state/location.json
+
+      - run: python screensaver/fetch_data.py state
+
+      - run: python screensaver/gen.py state dist
+
+      - name: Publish to the output branch
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          cp state/location.json state/snapshot.json dist/
+          cd dist
+          git init --quiet -b output
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -A
+          git commit --quiet -m "screensaver $(date -u +%Y-%m-%dT%H:%MZ)"
+          git push --quiet --force "https://x-access-token:${GH_TOKEN}@github.com/${GITHUB_REPOSITORY}.git" output
+
+      # GitHub turns off scheduled workflows after 60 days without repository activity.
+      # Re-enabling it from inside the run keeps the schedule alive.
+      - name: Keep the schedule enabled
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: gh api --method PUT "repos/${GITHUB_REPOSITORY}/actions/workflows/screensaver.yml/enable"

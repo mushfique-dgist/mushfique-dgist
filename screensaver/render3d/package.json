@@ -1,0 +1,10 @@
+{
+  "name": "dgist-campus-render",
+  "private": true,
+  "type": "module",
+  "dependencies": {
+    "three": "0.186.1",
+    "esbuild": "0.28.2",
+    "playwright-core": "1.49.1"
+  }
+}
