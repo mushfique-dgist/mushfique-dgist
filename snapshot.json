@@ -1,0 +1,314 @@
+{
+ "voyager": {
+  "km": 25875331439.596855,
+  "km_s": 29.4806867,
+  "light_s": 86310.81519601423,
+  "at": "2026-11-07T18:41:00+00:00"
+ },
+ "quakes": {
+  "events": [
+   {
+    "mag": 2.6,
+    "place": "103 km S of False Pass, Alaska",
+    "t": 1793991442.24
+   },
+   {
+    "mag": 4.4,
+    "place": "10 km ESE of Pedasí, Panama",
+    "t": 1793992014.642
+   },
+   {
+    "mag": 4.8,
+    "place": "36 km WNW of Poso, Indonesia",
+    "t": 1793992021.269
+   },
+   {
+    "mag": 2.5,
+    "place": "91 km ESE of Ugashik, Alaska",
+    "t": 1793994148.122
+   },
+   {
+    "mag": 3.2,
+    "place": "87 km NE of Adak, Alaska",
+    "t": 1793995213.886
+   },
+   {
+    "mag": 3,
+    "place": "10 km WNW of Seldovia, Alaska",
+    "t": 1793996795.774
+   },
+   {
+    "mag": 2.8,
+    "place": "39 km WNW of Preston, Nevada",
+    "t": 1794000846.73
+   },
+   {
+    "mag": 2.9,
+    "place": "5 km NE of Kalaoa, Hawaii",
+    "t": 1794002918.79
+   },
+   {
+    "mag": 4.6,
+    "place": "11 km ENE of Yigo Village, Guam",
+    "t": 1794004674.867
+   },
+   {
+    "mag": 2.5,
+    "place": "61 km WNW of Aleneva, Alaska",
+    "t": 1794005782.522
+   },
+   {
+    "mag": 4.4,
+    "place": "75 km SSE of Kuril’sk, Russia",
+    "t": 1794006945.408
+   },
+   {
+    "mag": 3.1,
+    "place": "2 km N of Little America, Wyoming",
+    "t": 1794011863.85
+   },
+   {
+    "mag": 2.7,
+    "place": "5 km E of Hoback, Wyoming",
+    "t": 1794014283.617
+   },
+   {
+    "mag": 2.6,
+    "place": "0 km ESE of Kasilof, Alaska",
+    "t": 1794017846.288
+   },
+   {
+    "mag": 2.7,
+    "place": "1 km S of Sabana Grande, Puerto Rico",
+    "t": 1794019624.48
+   },
+   {
+    "mag": 2.7,
+    "place": "45 km NNE of Cruz Bay, U.S. Virgin Islands",
+    "t": 1794019660.17
+   },
+   {
+    "mag": 2.7,
+    "place": "29 km WNW of Valdez, Alaska",
+    "t": 1794026072.802
+   },
+   {
+    "mag": 4.3,
+    "place": "37 km E of Churubamba, Peru",
+    "t": 1794029815.416
+   },
+   {
+    "mag": 4.4,
+    "place": "92 km W of Meulaboh, Indonesia",
+    "t": 1794034430.455
+   },
+   {
+    "mag": 2.6,
+    "place": "64 km SE of Denali National Park, Alaska",
+    "t": 1794035269.331
+   },
+   {
+    "mag": 4.6,
+    "place": "South Sandwich Islands region",
+    "t": 1794035650.868
+   },
+   {
+    "mag": 2.9,
+    "place": "2 km N of Tyonek, Alaska",
+    "t": 1794038616.154
+   },
+   {
+    "mag": 3.2,
+    "place": "70 km NNW of San Antonio, Puerto Rico",
+    "t": 1794040690.08
+   },
+   {
+    "mag": 3.1,
+    "place": "33 km NNW of Culebra, Puerto Rico",
+    "t": 1794040851.0
+   },
+   {
+    "mag": 4.7,
+    "place": "156 km ESE of Modisi, Indonesia",
+    "t": 1794044853.24
+   },
+   {
+    "mag": 4.5,
+    "place": "57 km SW of Ollagüe, Chile",
+    "t": 1794048792.299
+   },
+   {
+    "mag": 5.5,
+    "place": "74 km NE of Hasaki, Japan",
+    "t": 1794049663.355
+   },
+   {
+    "mag": 4.9,
+    "place": "southern Mid-Atlantic Ridge",
+    "t": 1794051338.338
+   },
+   {
+    "mag": 3.4,
+    "place": "6 km E of Calumet, Oklahoma",
+    "t": 1794052423.259
+   },
+   {
+    "mag": 2.7,
+    "place": "13 km NE of Milford, Utah",
+    "t": 1794054909.97
+   },
+   {
+    "mag": 4.5,
+    "place": "Fiji region",
+    "t": 1794063945.113
+   },
+   {
+    "mag": 2.6,
+    "place": "101 km N of Yakutat, Alaska",
+    "t": 1794064522.161
+   },
+   {
+    "mag": 4.9,
+    "place": "77 km NNW of Khorixas, Namibia",
+    "t": 1794064970.149
+   },
+   {
+    "mag": 2.6,
+    "place": "25 km S of Clayton, Idaho",
+    "t": 1794066194.995
+   },
+   {
+    "mag": 5.5,
+    "place": "10 km NW of Hamakita, Japan",
+    "t": 1794067475.125
+   },
+   {
+    "mag": 2.5,
+    "place": "38 km NW of Beluga, Alaska",
+    "t": 1794068964.746
+   },
+   {
+    "mag": 4.7,
+    "place": "45 km NNW of Salinas, Ecuador",
+    "t": 1794071858.931
+   },
+   {
+    "mag": 2.9,
+    "place": "7 km SW of Nikolaevsk, Alaska",
+    "t": 1794074334.493
+   },
+   {
+    "mag": 3.1,
+    "place": "13 km NE of Milford, Utah",
+    "t": 1794075056.18
+   }
+  ],
+  "at": "2026-11-07T18:41:00+00:00"
+ },
+ "kp": {
+  "kp": 2.33,
+  "time": "2026-11-07T18:37:00",
+  "at": "2026-11-07T18:41:00+00:00"
+ },
+ "weather": {
+  "time": "2026-11-08T03:30",
+  "interval": 900,
+  "temperature_2m": 4.3,
+  "weather_code": 1,
+  "cloud_cover": 34,
+  "precipitation": 0.0,
+  "rain": 0.0,
+  "snowfall": 0.0,
+  "is_day": 0,
+  "wind_speed_10m": 12.6,
+  "utc_offset_seconds": 32400,
+  "tz_abbr": "GMT+9",
+  "sunrise": "2026-11-08T06:54",
+  "sunset": "2026-11-08T17:24",
+  "at": "2026-11-07T18:41:00+00:00"
+ },
+ "air": {
+  "us_aqi": 55,
+  "pm2_5": 21.0,
+  "pm10": 23.0,
+  "at": "2026-11-07T18:41:00+00:00"
+ },
+ "arxiv": {
+  "papers": [
+   {
+    "title": "User Embeddings are Superpositions of Interpretable Behavioral Modes",
+    "id": "2611.08487v1"
+   },
+   {
+    "title": "Scientist World: Grow a Research World for AI-Scientists",
+    "id": "2611.08478v1"
+   },
+   {
+    "title": "XStack: A Benchmark for ML Repo Migration",
+    "id": "2611.08472v1"
+   },
+   {
+    "title": "Same Behavior, Different Mechanism: What Finite Experiments Can Certify About Integrated Information",
+    "id": "2611.08469v1"
+   },
+   {
+    "title": "Towards interpreting any residual stream direction by scaling activation inversion",
+    "id": "2611.08465v1"
+   },
+   {
+    "title": "Adversarial Training with Large Step Sizes: Implicit Bias, Optimization, and Sharpness",
+    "id": "2611.08457v1"
+   },
+   {
+    "title": "Unpacking the Compute Efficiency of Strong-to-Weak OPD against GRPO",
+    "id": "2611.08453v1"
+   },
+   {
+    "title": "A Hidden Markov Preference Model for Online Prediction of Adversary Actions",
+    "id": "2611.08445v1"
+   },
+   {
+    "title": "Label-Wording Augmentation in a Typed-Decision Encoder: Gains on Unfamiliar Words, Not on Abbreviations or Codes",
+    "id": "2611.08439v1"
+   },
+   {
+    "title": "Understanding AI from the Inside: The State of Mechanistic Interpretability for AI Safety",
+    "id": "2611.08438v1"
+   },
+   {
+    "title": "Data-driven discovery of intrinsic Lie point symmetries of differential equation systems",
+    "id": "2611.08421v1"
+   },
+   {
+    "title": "On the limitations of molecular representations",
+    "id": "2611.08420v1"
+   },
+   {
+    "title": "Spectral and Subspace Dynamics of LoRA in Supervised Fine-Tuning and Reinforcement Learning",
+    "id": "2611.08414v1"
+   },
+   {
+    "title": "Conformal Prediction for Time-Dependent PDEs",
+    "id": "2611.08409v1"
+   }
+  ],
+  "at": "2026-11-07T18:41:00+00:00"
+ },
+ "location": {
+  "city": "Daegu",
+  "country": "South Korea",
+  "country_code": "KR",
+  "lat": 35.6965,
+  "lon": 128.456,
+  "tz": "Asia/Seoul",
+  "population": 2400000,
+  "elevation": 60,
+  "dgist": true,
+  "campus": {
+   "zone": "dorms"
+  },
+  "source": "phone",
+  "reported": "2026-11-07T18:41:44+00:00"
+ },
+ "at": "2026-11-07T18:41:00+00:00"
+}

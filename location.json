@@ -1,0 +1,16 @@
+{
+ "city": "Daegu",
+ "country": "South Korea",
+ "country_code": "KR",
+ "lat": 35.6965,
+ "lon": 128.456,
+ "tz": "Asia/Seoul",
+ "population": 2400000,
+ "elevation": 60,
+ "dgist": true,
+ "campus": {
+  "zone": "dorms"
+ },
+ "source": "phone",
+ "reported": "2026-11-07T18:41:44+00:00"
+}
