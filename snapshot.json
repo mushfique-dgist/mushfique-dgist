@@ -1,0 +1,364 @@
+{
+ "voyager": {
+  "km": 25891945078.562687,
+  "km_s": 26.9162712,
+  "light_s": 86366.23233051009,
+  "at": "2026-11-14T14:16:00+00:00"
+ },
+ "quakes": {
+  "events": [
+   {
+    "mag": 3.5,
+    "place": "16 km W of Preston, Nevada",
+    "t": 1794582628.133
+   },
+   {
+    "mag": 3.4,
+    "place": "22 km WNW of Preston, Nevada",
+    "t": 1794584073.47
+   },
+   {
+    "mag": 5.2,
+    "place": "79 km NE of Kuqa, China",
+    "t": 1794586671.68
+   },
+   {
+    "mag": 4.8,
+    "place": "10 km SW of Guaymate, Dominican Republic",
+    "t": 1794587758.4
+   },
+   {
+    "mag": 5.8,
+    "place": "79 km WSW of Changuillo, Peru",
+    "t": 1794588182.131
+   },
+   {
+    "mag": 3.4,
+    "place": "63 km ESE of Sand Point, Alaska",
+    "t": 1794588930.862
+   },
+   {
+    "mag": 3.2,
+    "place": "53 km W of Nanwalek, Alaska",
+    "t": 1794595011.302
+   },
+   {
+    "mag": 4.9,
+    "place": "south of the Fiji Islands",
+    "t": 1794596140.754
+   },
+   {
+    "mag": 5.1,
+    "place": "South Sandwich Islands region",
+    "t": 1794596647.703
+   },
+   {
+    "mag": 2.5,
+    "place": "64 km ENE of Susitna North, Alaska",
+    "t": 1794596919.475
+   },
+   {
+    "mag": 4.5,
+    "place": "9 km WSW of Chaparral, Colombia",
+    "t": 1794598997.748
+   },
+   {
+    "mag": 4.8,
+    "place": "153 km NW of Kavieng, Papua New Guinea",
+    "t": 1794599361.768
+   },
+   {
+    "mag": 4.4,
+    "place": "14 km SW of Roncesvalles, Colombia",
+    "t": 1794600101.936
+   },
+   {
+    "mag": 3,
+    "place": "70 km SSW of Kaktovik, Alaska",
+    "t": 1794600396.688
+   },
+   {
+    "mag": 4.6,
+    "place": "33 km SSW of La Libertad, El Salvador",
+    "t": 1794604795.905
+   },
+   {
+    "mag": 3.4,
+    "place": "56 km S of Whites City, New Mexico",
+    "t": 1794605133.084
+   },
+   {
+    "mag": 4.9,
+    "place": "south of the Kermadec Islands",
+    "t": 1794607842.124
+   },
+   {
+    "mag": 2.6,
+    "place": "108 km E of Chignik, Alaska",
+    "t": 1794611157.912
+   },
+   {
+    "mag": 4.6,
+    "place": "74 km S of Yudomari, Japan",
+    "t": 1794612174.402
+   },
+   {
+    "mag": 4.1,
+    "place": "98 km ENE of Ouzinkie, Alaska",
+    "t": 1794612379.108
+   },
+   {
+    "mag": 5.1,
+    "place": "153 km NW of Kavieng, Papua New Guinea",
+    "t": 1794612638.32
+   },
+   {
+    "mag": 4.6,
+    "place": "100 km WSW of Lebu, Chile",
+    "t": 1794614115.232
+   },
+   {
+    "mag": 2.7,
+    "place": "58 km S of Whites City, New Mexico",
+    "t": 1794615960.323
+   },
+   {
+    "mag": 2.6,
+    "place": "17 km ENE of Tilden, Texas",
+    "t": 1794618051.839
+   },
+   {
+    "mag": 4.5,
+    "place": "Fiji region",
+    "t": 1794622867.393
+   },
+   {
+    "mag": 5.2,
+    "place": "off the west coast of northern Sumatra",
+    "t": 1794625169.18
+   },
+   {
+    "mag": 4.7,
+    "place": "54 km NW of San Antonio de los Cobres, Argentina",
+    "t": 1794626306.652
+   },
+   {
+    "mag": 2.5,
+    "place": "12 km SSW of Skwentna, Alaska",
+    "t": 1794628963.244
+   },
+   {
+    "mag": 4.5,
+    "place": "western Indian-Antarctic Ridge",
+    "t": 1794632340.633
+   },
+   {
+    "mag": 4,
+    "place": "32 km SE of Kargil, India",
+    "t": 1794632367.508
+   },
+   {
+    "mag": 4.8,
+    "place": "West Chile Rise",
+    "t": 1794637999.009
+   },
+   {
+    "mag": 5.2,
+    "place": "State of Yap, Federated States of Micronesia",
+    "t": 1794639146.706
+   },
+   {
+    "mag": 2.8,
+    "place": "23 km S of Denali National Park, Alaska",
+    "t": 1794639486.235
+   },
+   {
+    "mag": 4.6,
+    "place": "102 km NNE of Hihifo, Tonga",
+    "t": 1794639742.573
+   },
+   {
+    "mag": 2.7,
+    "place": "105 km N of Yakutat, Alaska",
+    "t": 1794640746.094
+   },
+   {
+    "mag": 2.7,
+    "place": "37 km SW of Chenega, Alaska",
+    "t": 1794640879.785
+   },
+   {
+    "mag": 4.1,
+    "place": "southeast of Shikoku, Japan",
+    "t": 1794641099.364
+   },
+   {
+    "mag": 3.5,
+    "place": "113 km N of San Antonio, Puerto Rico",
+    "t": 1794641951.52
+   },
+   {
+    "mag": 3.4,
+    "place": "14 km WSW of Conconully, Washington",
+    "t": 1794645007.4
+   },
+   {
+    "mag": 2.7,
+    "place": "29 km N of Hatillo, Puerto Rico",
+    "t": 1794647296.38
+   },
+   {
+    "mag": 5.5,
+    "place": "northern Mid-Atlantic Ridge",
+    "t": 1794648373.073
+   },
+   {
+    "mag": 3.0,
+    "place": "7 km W of Holtville, CA",
+    "t": 1794654321.66
+   },
+   {
+    "mag": 3.1,
+    "place": "8 km W of Holtville, CA",
+    "t": 1794654567.97
+   },
+   {
+    "mag": 3.3,
+    "place": "8 km W of Holtville, CA",
+    "t": 1794654775.14
+   },
+   {
+    "mag": 2.6,
+    "place": "8 km W of Holtville, CA",
+    "t": 1794654815.96
+   },
+   {
+    "mag": 3,
+    "place": "7 km W of Holtville, CA",
+    "t": 1794654838.48
+   },
+   {
+    "mag": 2.7,
+    "place": "8 km W of Holtville, CA",
+    "t": 1794654857.44
+   },
+   {
+    "mag": 2.7,
+    "place": "22 km ESE of Naalehu, Hawaii",
+    "t": 1794658126.14
+   },
+   {
+    "mag": 4.5,
+    "place": "137 km SE of Petropavlovsk-Kamchatsky, Russia",
+    "t": 1794659280.653
+   }
+  ],
+  "at": "2026-11-14T14:16:00+00:00"
+ },
+ "kp": {
+  "kp": 1.0,
+  "time": "2026-11-14T14:12:00",
+  "at": "2026-11-14T14:16:00+00:00"
+ },
+ "weather": {
+  "time": "2026-11-14T23:00",
+  "interval": 900,
+  "temperature_2m": 11.6,
+  "weather_code": 2,
+  "cloud_cover": 62,
+  "precipitation": 0.0,
+  "rain": 0.0,
+  "snowfall": 0.0,
+  "is_day": 0,
+  "wind_speed_10m": 6.9,
+  "utc_offset_seconds": 32400,
+  "tz_abbr": "GMT+9",
+  "sunrise": "2026-11-14T07:00",
+  "sunset": "2026-11-14T17:20",
+  "at": "2026-11-14T14:14:00+00:00"
+ },
+ "air": {
+  "us_aqi": 71,
+  "pm2_5": 25.1,
+  "pm10": 26.4,
+  "at": "2026-11-14T14:16:00+00:00"
+ },
+ "arxiv": {
+  "papers": [
+   {
+    "title": "Unbundling Multimodal Vision Encoding",
+    "id": "2611.17334v1"
+   },
+   {
+    "title": "ArchSpace: Recording, Reviewing, and Referencing LLM Architecture Research",
+    "id": "2611.17332v1"
+   },
+   {
+    "title": "Internalizing Investment Mandates: A Neurosymbolic RL Approach to Portfolio Allocation",
+    "id": "2611.17329v1"
+   },
+   {
+    "title": "AgentSSL: Can MLE Agents Leverage Unlabeled Data?",
+    "id": "2611.17323v1"
+   },
+   {
+    "title": "Linking Rapid Learning to Compositional Structure in Neural Networks: Evidence from Additive Analogies in Meta-Learned Parameter Spaces",
+    "id": "2611.17314v1"
+   },
+   {
+    "title": "Sketching Language Models for Context Attribution",
+    "id": "2611.17313v1"
+   },
+   {
+    "title": "Classical Energies Learn to Reason 1,000x Faster than Looped Models",
+    "id": "2611.17309v1"
+   },
+   {
+    "title": "Quantifying structural stability of transparent models for general insurance pricing",
+    "id": "2611.17308v1"
+   },
+   {
+    "title": "Towards a Theory of Learnability via Debate",
+    "id": "2611.17303v1"
+   },
+   {
+    "title": "FLEX-LBP: Learning Local Binary Patterns with Exact Binary Inference for Texture Classification",
+    "id": "2611.17302v1"
+   },
+   {
+    "title": "Consistent Video-to-Video Translation via Explicit Correspondences",
+    "id": "2611.17298v1"
+   },
+   {
+    "title": "Goal Encoding in LLMs",
+    "id": "2611.17297v1"
+   },
+   {
+    "title": "Metal Sandbox: Isolated Execution and Command Scheduling for GPU Coding Agents on Apple Silicon",
+    "id": "2611.17294v1"
+   },
+   {
+    "title": "Negative-Only Policy Optimization for One-Sided Verifiable Rewards",
+    "id": "2611.17287v1"
+   }
+  ],
+  "at": "2026-11-14T14:16:00+00:00"
+ },
+ "location": {
+  "city": "Daegu",
+  "country": "South Korea",
+  "country_code": "KR",
+  "lat": 35.6965,
+  "lon": 128.456,
+  "tz": "Asia/Seoul",
+  "population": 2400000,
+  "elevation": 60,
+  "dgist": true,
+  "campus": {
+   "zone": "dorms"
+  },
+  "source": "phone",
+  "reported": "2026-11-14T14:16:51+00:00"
+ },
+ "at": "2026-11-14T14:16:00+00:00"
+}

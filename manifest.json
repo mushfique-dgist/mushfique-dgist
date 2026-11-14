@@ -1,0 +1,42 @@
+{
+ "built": "2026-11-14T14:16:00+00:00",
+ "hero": "campus",
+ "scenes": [
+  "arxiv",
+  "aurora",
+  "mystify",
+  "orbit",
+  "pendulum",
+  "people",
+  "pulsar",
+  "seismo",
+  "voyager"
+ ],
+ "names": {
+  "voyager": "Voyager 1",
+  "seismo": "Seismograph",
+  "aurora": "Aurora meter",
+  "pulsar": "Pulsar",
+  "orbit": "Since you opened this page",
+  "people": "People alive",
+  "arxiv": "New on arXiv",
+  "pendulum": "Pendulum wave",
+  "mystify": "Mystify"
+ },
+ "location": {
+  "city": "Daegu",
+  "country": "South Korea",
+  "country_code": "KR",
+  "lat": 35.6965,
+  "lon": 128.456,
+  "tz": "Asia/Seoul",
+  "population": 2400000,
+  "elevation": 60,
+  "dgist": true,
+  "campus": {
+   "zone": "dorms"
+  },
+  "source": "phone",
+  "reported": "2026-11-14T14:16:51+00:00"
+ }
+}
