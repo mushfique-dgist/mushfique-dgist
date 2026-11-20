@@ -6,6 +6,7 @@ import { timingSafeEqual } from "node:crypto";
 const REPO = "mushfique-dgist/mushfique-dgist";
 const MOVED_M = 40;
 const EXPIRED_S = 6 * 3600;
+const REDRAW_S = 25 * 60;
 const ROUGH_M = 75; // matches location.py: a fix worse than this places no building pin
 
 const same = (a, b) => a.length === b.length && timingSafeEqual(Buffer.from(a), Buffer.from(b));
@@ -28,7 +29,10 @@ export default async function handler(req, res) {
 
   const msg = typeof req.body === "string" ? JSON.parse(req.body || "{}") : req.body || {};
   if (msg._type !== "location" || typeof msg.lat !== "number" || typeof msg.lon !== "number") return res.status(200).json([]);
-  const tst = Number(msg.tst) || Math.floor(Date.now() / 1000);
+  const now = Math.floor(Date.now() / 1000);
+  // A ping (t "p") means "still here": OwnTracks may resend the last fix with its old time, so it counts as now.
+  const tst = msg.t === "p" ? now : Number(msg.tst) || now;
+  console.log(`report t=${msg.t || "-"} age=${now - (Number(msg.tst) || now)}s acc=${Math.round(Number(msg.acc) || 0)}m`);
 
   const prev = await github("/actions/variables/LOC").then((r) => (r.ok ? r.json() : null)).catch(() => null);
   const [plat, plon, ptst] = (prev?.value || "").split(",").map(Number);
@@ -44,6 +48,9 @@ export default async function handler(req, res) {
   if (!saved.ok) return res.status(502).json([]);
 
   const moved = !keep && (!Number.isFinite(plat) || metres(plat, plon, msg.lat, msg.lon) > MOVED_M || tst - ptst > EXPIRED_S);
-  if (moved) await github("/actions/workflows/screensaver.yml/dispatches", { method: "POST", body: JSON.stringify({ ref: "main" }) }).catch(() => null);
+  // GitHub's half-hourly schedule often skips runs, so a report also redraws when the last run is over 25 minutes old.
+  const last = moved ? null : await github("/actions/workflows/screensaver.yml/runs?per_page=1").then((r) => (r.ok ? r.json() : null)).catch(() => null);
+  const stale = !moved && (!last?.workflow_runs?.length || now - Date.parse(last.workflow_runs[0].created_at) / 1000 > REDRAW_S);
+  if (moved || stale) await github("/actions/workflows/screensaver.yml/dispatches", { method: "POST", body: JSON.stringify({ ref: "main" }) }).catch(() => null);
   return res.status(200).json([]);
 }
