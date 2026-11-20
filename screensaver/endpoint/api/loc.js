@@ -6,6 +6,7 @@ import { timingSafeEqual } from "node:crypto";
 const REPO = "mushfique-dgist/mushfique-dgist";
 const MOVED_M = 40;
 const EXPIRED_S = 6 * 3600;
+const ROUGH_M = 75; // matches location.py: a fix worse than this places no building pin
 
 const same = (a, b) => a.length === b.length && timingSafeEqual(Buffer.from(a), Buffer.from(b));
 
@@ -33,11 +34,16 @@ export default async function handler(req, res) {
   const [plat, plon, ptst] = (prev?.value || "").split(",").map(Number);
   if (Number.isFinite(ptst) && ptst > tst) return res.status(200).json([]); // a queued older fix arriving late
 
-  const value = [msg.lat.toFixed(6), msg.lon.toFixed(6), tst, Math.round(Number(msg.acc) || 0)].join(",");
+  // Indoors a fix is often 100 m+ off. If a rough fix still overlaps the last good one, keep the good position and only
+  // refresh its time, so the building pin does not blink out. A rough fix clearly elsewhere still replaces it.
+  const acc = Math.round(Number(msg.acc) || 0);
+  const [, , , pacc] = (prev?.value || "").split(",").map(Number);
+  const keep = acc > ROUGH_M && Number.isFinite(plat) && pacc <= ROUGH_M && tst - ptst < EXPIRED_S && metres(plat, plon, msg.lat, msg.lon) <= acc + 30;
+  const value = keep ? [plat.toFixed(6), plon.toFixed(6), tst, pacc].join(",") : [msg.lat.toFixed(6), msg.lon.toFixed(6), tst, acc].join(",");
   const saved = await github("/actions/variables/LOC", { method: "PATCH", body: JSON.stringify({ name: "LOC", value }) });
   if (!saved.ok) return res.status(502).json([]);
 
-  const moved = !Number.isFinite(plat) || metres(plat, plon, msg.lat, msg.lon) > MOVED_M || tst - ptst > EXPIRED_S;
+  const moved = !keep && (!Number.isFinite(plat) || metres(plat, plon, msg.lat, msg.lon) > MOVED_M || tst - ptst > EXPIRED_S);
   if (moved) await github("/actions/workflows/screensaver.yml/dispatches", { method: "POST", body: JSON.stringify({ ref: "main" }) }).catch(() => null);
   return res.status(200).json([]);
 }
