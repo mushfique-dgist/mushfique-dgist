@@ -84,7 +84,7 @@ def campus_spot(lat, lon):
             pts = [p for p in data["points"] if p["code"] in b["codes"]]
             return {"code": min(pts, key=lambda p: math.hypot(p["x"] - x, p["y"] - y))["code"]}
     near = min((p for p in data["points"] if p["code"] and not p["code"].startswith("H")), key=lambda p: math.hypot(p["x"] - x, p["y"] - y))
-    return {"code": near["code"]} if math.hypot(near["x"] - x, near["y"] - y) < 60 else {"zone": "campus"}
+    return {"code": near["code"]}  # anywhere else on campus: the nearest building, so there is always a pin
 
 
 def inside(pt, poly):
@@ -97,7 +97,6 @@ def inside(pt, poly):
 
 
 PRECISE_TTL = timedelta(hours=6)
-ROUGH_M = 75  # a fix less sure than this places no building pin
 
 
 def from_precise(value, now):
@@ -107,8 +106,6 @@ def from_precise(value, now):
     if len(fields) > 2 and now - datetime.fromtimestamp(float(fields[2]), timezone.utc) > PRECISE_TTL:
         return None
     spot = campus_spot(lat, lon)
-    if spot and "code" in spot and len(fields) > 3 and float(fields[3] or 0) > ROUGH_M:
-        spot = {"zone": "campus"}
     if spot:
         return {**DGIST, "campus": spot}
     return from_report("", "", round(lat, 1), round(lon, 1))

@@ -16,7 +16,7 @@ The home view is a painting of DGIST. When Mushfique is on campus, a pin sits on
 - `LOC` is a repository variable, which the public cannot see. The token lives only on Vercel, and the phone holds only the relay password.
 - `location.json` on the `output` branch holds the code, zone or city. That branch is force-pushed each run, so it keeps no history.
 - A reading older than 6 hours is ignored, so a stale pin never stays on a building.
-- A fix less accurate than 75 m places no building pin (only "DGIST").
+- Anywhere on campus outside a building, the pin goes on the nearest building, so a pin always shows while at DGIST.
 
 ## Setup (done once, on 4 November 2026)
 
