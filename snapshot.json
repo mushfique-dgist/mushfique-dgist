@@ -1,0 +1,324 @@
+{
+ "voyager": {
+  "km": 25921267013.804737,
+  "km_s": 21.2146511,
+  "light_s": 86464.03977849483,
+  "at": "2026-11-28T16:15:00+00:00"
+ },
+ "quakes": {
+  "events": [
+   {
+    "mag": 2.6,
+    "place": "53 km W of Hawaiian Ocean View, Hawaii",
+    "t": 1795797380.38
+   },
+   {
+    "mag": 3,
+    "place": "33 km WSW of Nanwalek, Alaska",
+    "t": 1795801813.569
+   },
+   {
+    "mag": 2.8,
+    "place": "13 km E of Susitna North, Alaska",
+    "t": 1795805583.858
+   },
+   {
+    "mag": 3.6,
+    "place": "24 km SSW of Boca de Yuma, Dominican Republic",
+    "t": 1795810126.85
+   },
+   {
+    "mag": 3.3,
+    "place": "19 km NNE of Willow, Alaska",
+    "t": 1795812914.936
+   },
+   {
+    "mag": 4.5,
+    "place": "Izu Islands, Japan region",
+    "t": 1795816048.211
+   },
+   {
+    "mag": 2.5,
+    "place": "5 km WNW of Laconia, New Hampshire",
+    "t": 1795816479.854
+   },
+   {
+    "mag": 3.5,
+    "place": "21 km SSW of Silver Peak, Nevada",
+    "t": 1795818475.801
+   },
+   {
+    "mag": 2.9,
+    "place": "23 km N of Fishhook, Alaska",
+    "t": 1795820146.923
+   },
+   {
+    "mag": 3.3,
+    "place": "19 km SSW of Pinehill, New Mexico",
+    "t": 1795820493.029
+   },
+   {
+    "mag": 4,
+    "place": "51 km SW of Gorontalo, Indonesia",
+    "t": 1795822913.872
+   },
+   {
+    "mag": 2.6,
+    "place": "6 km NW of Pinnacles, CA",
+    "t": 1795823394.58
+   },
+   {
+    "mag": 2.5,
+    "place": "6 km NW of Pinnacles, CA",
+    "t": 1795823601.61
+   },
+   {
+    "mag": 2.7,
+    "place": "51 km NE of Pedro Bay, Alaska",
+    "t": 1795823950.487
+   },
+   {
+    "mag": 3.1,
+    "place": "17 km S of Nixon, Texas",
+    "t": 1795824089.482
+   },
+   {
+    "mag": 3.2,
+    "place": "69 km N of Tierras Nuevas Poniente, Puerto Rico",
+    "t": 1795824363.82
+   },
+   {
+    "mag": 4.4,
+    "place": "Volcano Islands, Japan region",
+    "t": 1795825219.976
+   },
+   {
+    "mag": 4.8,
+    "place": "167 km N of Hicks Bay, New Zealand",
+    "t": 1795828125.95
+   },
+   {
+    "mag": 5.1,
+    "place": "73 km NNW of Phôngsali, Laos",
+    "t": 1795828662.722
+   },
+   {
+    "mag": 4.7,
+    "place": "130 km NE of Bitung, Indonesia",
+    "t": 1795829806.461
+   },
+   {
+    "mag": 2.5,
+    "place": "2 km NNE of The Geysers, CA",
+    "t": 1795830148.64
+   },
+   {
+    "mag": 5.2,
+    "place": "93 km W of San Antonio de los Cobres, Argentina",
+    "t": 1795832705.52
+   },
+   {
+    "mag": 4.6,
+    "place": "26 km NNW of Cuya, Chile",
+    "t": 1795834535.595
+   },
+   {
+    "mag": 3.1,
+    "place": "207 km SE of Chiniak, Alaska",
+    "t": 1795834747.178
+   },
+   {
+    "mag": 4.2,
+    "place": "216 km NNW of Kuril’sk, Russia",
+    "t": 1795835308.526
+   },
+   {
+    "mag": 3.2,
+    "place": "10 km SSW of San Lucas, CA",
+    "t": 1795836808.88
+   },
+   {
+    "mag": 2.8,
+    "place": "22 km NNE of Susitna North, Alaska",
+    "t": 1795837606.52
+   },
+   {
+    "mag": 2.5,
+    "place": "14 km NNW of Puako, Hawaii",
+    "t": 1795840417.0
+   },
+   {
+    "mag": 2.8,
+    "place": "167 km SSW of Akhiok, Alaska",
+    "t": 1795843452.195
+   },
+   {
+    "mag": 3.2,
+    "place": "17 km WNW of Hāwī, Hawaii",
+    "t": 1795845426.99
+   },
+   {
+    "mag": 4,
+    "place": "10 km WSW of Point MacKenzie, Alaska",
+    "t": 1795846302.401
+   },
+   {
+    "mag": 2.5,
+    "place": "14 km NE of Milford, Utah",
+    "t": 1795847360.85
+   },
+   {
+    "mag": 2.7,
+    "place": "34 km SE of Malaga, New Mexico",
+    "t": 1795849848.993
+   },
+   {
+    "mag": 4.5,
+    "place": "154 km WSW of Banda Aceh, Indonesia",
+    "t": 1795854638.53
+   },
+   {
+    "mag": 3,
+    "place": "15 km SSE of Pearsall, Texas",
+    "t": 1795855113.572
+   },
+   {
+    "mag": 4.6,
+    "place": "132 km E of Neiafu, Tonga",
+    "t": 1795857400.051
+   },
+   {
+    "mag": 2.5,
+    "place": "30 km WNW of Jeffrey City, Wyoming",
+    "t": 1795863206.944
+   },
+   {
+    "mag": 4.7,
+    "place": "46 km S of Tobelo, Indonesia",
+    "t": 1795864041.794
+   },
+   {
+    "mag": 3.3,
+    "place": "282 km ESE of Chiniak, Alaska",
+    "t": 1795864250.727
+   },
+   {
+    "mag": 6.7,
+    "place": "62 km NNW of Yelizovo, Russia",
+    "t": 1795871706.781
+   },
+   {
+    "mag": 3.0,
+    "place": "16 km NNW of Hetch Hetchy Reservoir, CA",
+    "t": 1795872258.09
+   }
+  ],
+  "at": "2026-11-28T16:15:00+00:00"
+ },
+ "kp": {
+  "kp": 3.0,
+  "time": "2026-11-28T16:12:00",
+  "at": "2026-11-28T16:15:00+00:00"
+ },
+ "weather": {
+  "time": "2026-11-29T01:15",
+  "interval": 900,
+  "temperature_2m": 4.0,
+  "weather_code": 1,
+  "cloud_cover": 41,
+  "precipitation": 0.0,
+  "rain": 0.0,
+  "snowfall": 0.0,
+  "is_day": 0,
+  "wind_speed_10m": 15.2,
+  "utc_offset_seconds": 32400,
+  "tz_abbr": "GMT+9",
+  "sunrise": "2026-11-29T07:15",
+  "sunset": "2026-11-29T17:13",
+  "at": "2026-11-28T16:15:00+00:00"
+ },
+ "air": {
+  "us_aqi": 59,
+  "pm2_5": 6.7,
+  "pm10": 8.6,
+  "at": "2026-11-28T16:15:00+00:00"
+ },
+ "arxiv": {
+  "papers": [
+   {
+    "title": "Tokenisation is not in APX",
+    "id": "2611.34938v1"
+   },
+   {
+    "title": "Can image generation help visual reasoning? An empirical study",
+    "id": "2611.34935v1"
+   },
+   {
+    "title": "Attack Policy Selection can Mislead Monitor Evaluators",
+    "id": "2611.34934v1"
+   },
+   {
+    "title": "A gene informed benchmark for BioScoring of pathology foundation models",
+    "id": "2611.34930v1"
+   },
+   {
+    "title": "Diverse Alternative Reasoning Traces for Hard Math Problems",
+    "id": "2611.34928v1"
+   },
+   {
+    "title": "Mixture-of-Loops Transformer",
+    "id": "2611.34923v1"
+   },
+   {
+    "title": "Enhancing Maritime Domain Awareness using Latent Space Representations",
+    "id": "2611.34899v1"
+   },
+   {
+    "title": "What a Drop Reveals: Sim-to-Real Material Estimation for Deformable Objects from Video",
+    "id": "2611.34894v1"
+   },
+   {
+    "title": "Interpretable and Accurate Hybrid Decision Trees with Selective Case-Based Splits",
+    "id": "2611.34887v1"
+   },
+   {
+    "title": "Stranger Things: When Objects Appear Without Their Typical Neighbors",
+    "id": "2611.34881v1"
+   },
+   {
+    "title": "Focus Only on What's Important: Training-Free Focus Maps for Frozen Vision Transformers in Long-Video Object Segmentation",
+    "id": "2611.34863v1"
+   },
+   {
+    "title": "Model Weights, Airlocks and Sandboxes: A Call for Technical Validation of Re-identification Tests under the EDPB Anonymisation Guidelines",
+    "id": "2611.34859v1"
+   },
+   {
+    "title": "From Prediction to Decision: Decision-Focused Fine-Tuning of Autoregressive Tabular Transformers for Cost-Sensitive Financial Events",
+    "id": "2611.34858v1"
+   },
+   {
+    "title": "Put the World Back: Timestamps Matter in Time Series Reasoning",
+    "id": "2611.34848v1"
+   }
+  ],
+  "at": "2026-11-28T16:15:00+00:00"
+ },
+ "location": {
+  "city": "Daegu",
+  "country": "South Korea",
+  "country_code": "KR",
+  "lat": 35.6965,
+  "lon": 128.456,
+  "tz": "Asia/Seoul",
+  "population": 2400000,
+  "elevation": 60,
+  "dgist": true,
+  "campus": {
+   "zone": "dorms"
+  },
+  "source": "phone",
+  "reported": "2026-11-28T16:15:28+00:00"
+ },
+ "at": "2026-11-28T16:15:00+00:00"
+}
